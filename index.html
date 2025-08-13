@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <section class="nav">
+          <input type="text" placeholder="Search City" id="search-text" />
+          <button class="search-btn">
+            <img
+              src="./weather-app-img/images/search.png"
+              alt="search"
+              class="search-img"
+            />
+          </button>
+        </section>
+
+        <section class="main">
+          <img
+            src="./weather-app-img/images/clouds.png"
+            alt="Weather"
+            id="weather-img"
+          />
+
+          <div class="weather-info">
+            <p class="temperature"><span class="temp">22</span>°C</p>
+            <p class="city">New York</p>
+          </div>
+        </section>
+
+        <footer>
+          <div class="element">
+            <img src="./weather-app-img/images/humidity.png" alt="humidity" />
+            <div class="humidity-info">
+              <p class="humidity"><span class="humidity-value">64</span>%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="element">
+            <img src="./weather-app-img/images/wind.png" alt="wind" />
+            <div class="wind-info">
+              <p class="wind"><span class="wind-speed-value">18</span> km/h</p>
+              <p>wind Speed</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
