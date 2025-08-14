@@ -1,4 +1,3 @@
-// import axios from "axios";
 const weatherImg = document.querySelector("#weather-img");
 const temp = document.querySelector(".temp");
 const city = document.querySelector(".city");
